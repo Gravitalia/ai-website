@@ -1,20 +1,10 @@
-<script setup lang="ts">
-import { ChevronRightIcon } from "@heroicons/vue/24/outline";
-</script>
-
 <template>
 	<div class="absolute">
-		<h1 class="text-2xl lg:text-4xl font-bold dark:text-white">
-			{{ $t("home.slogan") }}
-		</h1>
-		<NuxtLink
-			tabindex="0"
-			to="https://account.gravitalia.com/signup"
-			rel="noopener noreferrer"
-			class="flex underline mt-6 xl:ml-1 text-md xl:text-lg text-zinc-500 dark:text-zinc-400"
+		<h1 class="text-center text-white text-6xl">Gravitalia AI</h1>
+		<h2
+			class="mt-6 px-4 text-center text-xl text-zinc-400 md:text-2xl font-thin"
 		>
-			{{ $t("home.start_by_create_account") }}
-			<ChevronRightIcon class="mt-1.5 size-4"
-		/></NuxtLink>
+			Machine learning models made for embedded systems.
+		</h2>
 	</div>
 </template>
